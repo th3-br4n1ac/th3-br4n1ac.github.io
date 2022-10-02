@@ -36,7 +36,7 @@ async function openchat()
             i = 0;
         }
     }
-    document.getElementById("titletext").innerHTML = "You are chatting with Jake";
+    document.getElementById("titletext").innerHTML = "You are chatting with Blake";
     document.getElementById("input").style.display = "block";
     await delay(i*1000 + 1000);
     document.getElementById("backandforth").style.display = "block";
