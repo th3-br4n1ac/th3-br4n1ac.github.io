@@ -1,0 +1,45 @@
+button.benbutton{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    right: 30px;
+    top: 510px;
+    background:none;
+    border: none;
+}
+
+img.logo{
+    width: 100px;
+}
+
+.chatbox{
+    position:absolute;
+    right: 30px;
+    top: 400px;
+    background-color: whitesmoke;
+}
+
+img.exit{
+    width: 22px;
+    background:red;
+}
+
+p.user{
+   text-align: right; 
+   color: red;
+}
+
+.jake{
+    color:red;
+    margin-left: 10px;
+}
+
+.jaketitle{
+    color:red;
+    font-size:large;
+}
+
+.backandforth{
+    height:500px;
+}

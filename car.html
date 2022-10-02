@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="car.html">Discounts</a></li>
+                <li><a href="coverage.html">Coverage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="discounts">
+            <h1 style=color:red>Discounts</h1>State farm has great opportunities for discounts
+
+                <ul><li></li><li></li><li></li></ul>
+                <li style = color:red;font-size:30px><strong>Excellent Students</strong></li>
+                    <ul><li>Students with good grades can earn up to 25% off up until age 25</li>
+                    <li></li>
+                    </ul>
+                <li style=color:red;font-size:30px><strong>Safe Drivers</strong></li>
+                    <ul><li>Record your driving using our app and save up to 30%</li>
+                    <li></li>
+                    </ul>
+                <li style=color:red;font-size:30px><strong>Perfect Record</strong></li>
+                    <ul><li>If your driving record has been clean the last 3 years  and you're under 25 you can save up to 15%</li>
+                    <li></li>
+                    </ul>
+            </ul>
+</body>
+
+<link rel="stylesheet" href="chat.css">
+        <script src="chatlogic.js"></script>
+        <button id="bb" class = "benbutton" onclick="openchat()"><img class = "logo" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimages%2Fpi5rK5nyT.png&f=1&nofb=1&ipt=08fe8021b16995381c6a59181d03be7fd09329e62be05b09a2d238fd80aab84b&ipo=images" alt="Chat icon"></button>
+        <div id="cb" class="chatbox" style="display:none">
+            <h1 id="titletext" style="color:white;font-size:25px;background-color: red;">d
+            </h1>
+            <button id="close" onclick="closechat()" style="cursor:pointer;border:none;float:right">
+                <img class="exit" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fx-mark-512.png&f=1&nofb=1&ipt=de3551cd269d033d7c4526296d23fdfe3ca5d4bd52bce48d5e36b927b317569e&ipo=images" alt="X">
+            </button>
+            <div id="backandforth" style="margin:20px;display:none">
+                <p class = "jaketitle">Jake</p>
+                <p class = "jake">Hello, how are you?</p>
+            </div>
+        <div id = "input" style="margin:10px;display:none">
+            <input type="text" style="float:left">
+            <button id ="send" style="float:right;cursor: pointer;"
+                onclick ="sendMessage()">
+                Send
+            </button>
+        </div>
+        
+</html>
